@@ -177,7 +177,7 @@ This table is based mostly on the work in [*“They’re not that hard to mitiga
 - Introduced in “Sidetrail: Verifying time-balancing of cryptosystems” by K. Athanasiou, B. Cook, M. Emmi, C. MacCárthaigh, D. Schwartz-Narbonne, and S. Tasiran; <https://doi.org/10.1007/978-3-030-03592-1_12>
 - **SideTrail** (at one point called SideWinder) is a tool for verifying time-balanced implementations. The notion of time-balance is a weakening of the constant-time notion that allows for the presence of leakage that is provably under some bound $\delta$ (execution time is negligibly influenced by secrets). For $\delta = 0$ this notion fits well with the notion of constant-time. The tool uses a cross-product technique similar to that of **ct-verif**. However, instead of asserting the equality of memory accesses and program counter, it asserts the equality of an instruction counter. Its leakage model and technique are well suited against remote (non-cache) attackers.
 - The tool is deployed in the CI of Amazon's **s2n** library at [link](https://github.com/awslabs/s2n/tree/main/tests/sidetrail), where it is used to verify the time-balancedness of several parts of the codebase, handling the CBC decryption, HMAC padding, and AEAD decryption.
-- **Tool not available**
+- **Tool available:** <https://github.com/aws/s2n-tls/tree/main/tests/sidetrail>
 
 ### Themis
 
