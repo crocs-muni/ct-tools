@@ -4,37 +4,37 @@
 
 ## Tools
 
-| Name              | Year | Target  | Technique   | Guarantees              |
-| ----------------- | ---- | ------- | ----------- | ----------------------- |
-| ABPV13            | 2013 | C       | Formal      | sound                   |
-| Binsec/Rel        | 2020 | Binary  | Symbolic    | sound with restrictions |
-| Blazer            | 2017 | Java    | Formal      | sound                   |
-| BPT17             | 2017 | C       | Symbolic    | sound with restrictions |
-| CacheAudit        | 2013 | Binary  | Formal      | other                   |
-| CacheD            | 2016 | Trace   | Symbolic    | no                      |
-| CacheFix          | 2018 |         |             |                         |
-| COCO-CHANNEL      | 2018 | Java    | Symbolic    | sound                   |
-| Constantine       | 2021 |         |             |                         |
-| ctgrind           | 2010 | Binary  | Dynamic     | sound with restrictions |
-| ct-fuzz           | 2020 | LLVM IR | Dynamic     | no                      |
-| ct-verif          | 2016 | LLVM IR | Formal      | sound                   |
-| CT-WASM           | 2019 | WASM    | Formal      | sound                   |
-| DATA              | 2018 | Binary  | Dynamic     | sound with restrictions |
-| dudect            | 2017 | Binary  | Statistical | no                      |
-| FaCT              | 2019 | DSL     | Formal      | sound                   |
-| FlowTracker       | 2016 | LLVM IR | Formal      | sound                   |
-| haybale-pitchfork | 2019 | LLVM IR | Symbolic    | sound with restrictions |
-| KMO12             | 2012 | Binary  | Formal      | other                   |
-| MemSan            | -    | LLVM IR | Dynamic     | sound with restrictions |
-| MicroWalk         | 2018 | Binary  | Dynamic     | sound with restrictions |
-| pitchfork-angr    | 2019 |         |             |                         |
-| SC-Eliminator     | 2018 | LLVM IR | Formal      | sound                   |
-| SideTrail         | 2018 | LLVM IR | Formal      | other                   |
-| Themis            | 2017 | Java    | Formal      | sound                   |
-| timecop           | -    | Binary  | Dynamic     | sound with restrictions |
-| tis-ct            | -    | C       | Symbolic    | sound with restrictions |
-| TriggerFlow       | 2018 |         |             |                         |
-| VirtualCert       | 2014 | x86     | Formal      | sound                   |
+| Name                                    | Year | Target  | Technique   | Guarantees              |
+| --------------------------------------- | ---- | ------- | ----------- | ----------------------- |
+| [ABPV13](#abpv13)                       | 2013 | C       | Formal      | sound                   |
+| [Binsec/Rel](#binsecrel)                | 2020 | Binary  | Symbolic    | sound with restrictions |
+| [Blazer](#blazer)                       | 2017 | Java    | Formal      | sound                   |
+| [BPT17](#bpt17)                         | 2017 | C       | Symbolic    | sound with restrictions |
+| [CacheAudit](#cacheaudit)               | 2013 | Binary  | Formal      | other                   |
+| [CacheD](#cached)                       | 2016 | Trace   | Symbolic    | no                      |
+| [CacheFix](#cachefix)                   | 2018 |         |             |                         |
+| [COCO-CHANNEL](#coco-channel)           | 2018 | Java    | Symbolic    | sound                   |
+| [Constantine](#constantine)             | 2021 |         |             |                         |
+| [ctgrind](#ctgrind)                     | 2010 | Binary  | Dynamic     | sound with restrictions |
+| [ct-fuzz](#ct-fuzz)                     | 2020 | LLVM IR | Dynamic     | no                      |
+| [ct-verif](#ct-verif)                   | 2016 | LLVM IR | Formal      | sound                   |
+| [CT-WASM](#ct-wasm)                     | 2019 | WASM    | Formal      | sound                   |
+| [DATA](#data)                           | 2018 | Binary  | Dynamic     | sound with restrictions |
+| [dudect](#dudect)                       | 2017 | Binary  | Statistical | no                      |
+| [FaCT](#fact)                           | 2019 | DSL     | Formal      | sound                   |
+| [FlowTracker](#flowtracker)             | 2016 | LLVM IR | Formal      | sound                   |
+| [haybale-pitchfork](#haybale-pitchfork) | 2019 | LLVM IR | Symbolic    | sound with restrictions |
+| [KMO12](#kmo12)                         | 2012 | Binary  | Formal      | other                   |
+| [MemSan](#memsan)                       | -    | LLVM IR | Dynamic     | sound with restrictions |
+| [MicroWalk](#microwalk)                 | 2018 | Binary  | Dynamic     | sound with restrictions |
+| [pitchfork-angr](#pitchfork-angr)       | 2019 |         |             |                         |
+| [SC-Eliminator](#sc-eliminator)         | 2018 | LLVM IR | Formal      | sound                   |
+| [SideTrail](#sidetrail)                 | 2018 | LLVM IR | Formal      | other                   |
+| [Themis](#themis)                       | 2017 | Java    | Formal      | sound                   |
+| [timecop](#timecop)                     | -    | Binary  | Dynamic     | sound with restrictions |
+| [tis-ct](#tis-ct)                       | -    | C       | Symbolic    | sound with restrictions |
+| [TriggerFlow](#triggerflow)             | 2018 |         |             |                         |
+| [VirtualCert](#virtualcert)             | 2014 | x86     | Formal      | sound                   |
 
 This table is based mostly on the work in [*“They’re not that hard to mitigate”: What Cryptographic Library Developers Think About Timing Attacks*](https://crocs.fi.muni.cz/public/papers/usablect_sp22) with manual addition of more tools. 
 
