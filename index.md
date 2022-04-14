@@ -170,7 +170,7 @@ This table is based mostly on the work in [*“They’re not that hard to mitiga
 ### SC-Eliminator
 
 - Introduced in “Eliminating timing side-channel leaks using program repair” by M. Wu, S. Guo, P. Schaumont, and C. Wang; <https://doi.org/10.1145/3213846.3213851>
-- **Tool not available**
+- **Tool available:** https://zenodo.org/record/1299357
 
 ### SideTrail
 
