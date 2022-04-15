@@ -58,7 +58,7 @@ This table is based mostly on the work in [*“They’re not that hard to mitiga
 ### BPT17
 
 - Introduced in “Verifying constant-time implementations by abstract interpretation” by S. Blazy, D. Pichardie, and A. Trieu; <https://doi.org/10.1007/978-3-319-66402-6_16>
-- **Tool not available**
+- **Tool available:** <http://irisa.fr/celtique/ext/esorics17/>
 
 ### CacheAudit
 
@@ -170,7 +170,7 @@ This table is based mostly on the work in [*“They’re not that hard to mitiga
 ### SC-Eliminator
 
 - Introduced in “Eliminating timing side-channel leaks using program repair” by M. Wu, S. Guo, P. Schaumont, and C. Wang; <https://doi.org/10.1145/3213846.3213851>
-- **Tool available:** https://zenodo.org/record/1299357
+- **Tool available:** <https://zenodo.org/record/1299357>
 
 ### SideTrail
 
