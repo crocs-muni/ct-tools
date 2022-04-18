@@ -149,7 +149,7 @@ This table is based mostly on the work in [*“They’re not that hard to mitiga
 ### KMO12
 
 - Introduced in “Automatic quantification of cache side-channels” by B. Köpf, L. Mauborgne, and M. Ochoa; <https://doi.org/10.1007/978-3-642-31424-7_40>
-- **Tool not available**
+- **Tool not available, superseded by [CacheAudit](#cacheaudit)**
 
 ### MemSan
 
