@@ -7,7 +7,7 @@ target: LLVM IR
 technique: Formal
 guarantees: sound
 available: true
-repo: https://github.com/canalcache/cana
+repo: https://github.com/canalcache/canal
 papers:
  - name: "CANAL: a cache timing analysis framework via LLVM transformation"
    link: https://dl.acm.org/doi/10.1145/3238147.3240485
