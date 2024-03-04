@@ -10,6 +10,8 @@ available: true
 repo: https://github.com/s3team/Abacus
 papers:
  - name: "Abacus: A Tool for Precise Side-Channel Analysis"
+   link: https://doi.org/10.1109/ICSE43902.2021.00078
+ - name: "Abacus: A Tool for Precise Side-Channel Analysis (companion tutorial)"
    link: https://doi.org/10.1109/ICSE-Companion52605.2021.00110
 ---
 
