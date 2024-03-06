@@ -1,7 +1,7 @@
 ---
 ---
 
-<h1 style="display: flex; align-items: center; color: black; font-weight: bold;"><img src="/assets/img/logo.svg" /><span style="margin-left: 1em;">Constant-timeness verification tools</span></h1>
+<h1 style="display: flex; align-items: center; color: black; font-weight: bold;"><img src="{{ "/assets/img/logo.svg" | relative_url }}" /><span style="margin-left: 1em;">Constant-timeness verification tools</span></h1>
 
 
 This page lists tools for testing and verification of constant-timeness of programs.
