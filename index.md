@@ -6,6 +6,8 @@ This page lists tools for testing and verification of constant-timeness of progr
 The table is based mostly on the work in [*“They’re not that hard to mitigate”: What Cryptographic Library Developers Think About Timing Attacks*](https://crocs.fi.muni.cz/public/papers/usablect_sp22) with addition of more tools. 
 Each tool has its own page with more information and resources, sometimes **even a tutorial on using the tool**.
 
+There are currently {% site.tools.size %} tools in the table.
+
 ## Tools
 
 <table>
