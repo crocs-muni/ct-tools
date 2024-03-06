@@ -1,6 +1,8 @@
 ---
 ---
-## Constant-timeness verification tools
+
+<h1 style="display: flex; align-items: center; color: black; font-weight: bold;"><img src="/assets/img/logo.svg" /><span style="margin-left: 1em;">Constant-timeness verification tools</span></h1>
+
 
 This page lists tools for testing and verification of constant-timeness of programs.
 The table is based mostly on the work in [*“They’re not that hard to mitigate”: What Cryptographic Library Developers Think About Timing Attacks*](https://crocs.fi.muni.cz/public/papers/usablect_sp22) with addition of more tools. 
@@ -44,11 +46,13 @@ can be useful for testing constant-timeness verification tools, or learning how 
 	<li><a href="{{ example.url | relative_url }}">{{ example.title }}.c</a> ({% if example.ct == "depends" %}depends{% elsif example.ct %}CT{% else %}non-CT{% endif %})</li>
 {% endfor %}
 </ul>
+
 ## Resources
 
-- <https://neuromancer.sk/article/26>
-- <https://crocs.fi.muni.cz/public/papers/usablect_sp22>
-- <https://neuromancer.sk/article/29>
+- [Blog: The state of tooling for verifying constant-timeness of cryptographic implementations](https://neuromancer.sk/article/26)
+- [“They’re not that hard to mitigate”: What Cryptographic Library Developers Think About Timing Attacks](https://crocs.fi.muni.cz/public/papers/usablect_sp22)
+- [Blog: Testing constant-timeness using Valgrind: case of the NSS library](https://neuromancer.sk/article/29)
+- [Blog: Constant-time code verification with Memory Sanitizer](https://www.amongbytes.com/post/20210709-testing-constant-time/)
 
 <hr/>
 <img src="assets/img/oprah.jpg" alt="Oprah giving everyone a tool" style="display: block; margin-left: auto; margin-right: auto;"/>

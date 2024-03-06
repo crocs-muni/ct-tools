@@ -11,6 +11,7 @@ repo: https://github.com/IAIK/cache_template_attacks
 papers:
  - name: "Cache Template Attacks: Automating Attacks on Inclusive Last-Level Caches"
    link: https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/gruss
+---
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/IAIK/cache_template_attacks)![GitHub contributors](https://img.shields.io/github/contributors/IAIK/cache_template_attacks)![GitHub Repo stars](https://img.shields.io/github/stars/IAIK/cache_template_attacks)
 
