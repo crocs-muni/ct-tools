@@ -5,7 +5,8 @@
 
 
 This page lists tools for testing and verification of constant-timeness of programs.
-The table is based mostly on the work in [*“They’re not that hard to mitigate”: What Cryptographic Library Developers Think About Timing Attacks*](https://crocs.fi.muni.cz/public/papers/usablect_sp22) with addition of more tools. 
+The table is based mostly on the work in [*“They’re not that hard to mitigate”: What Cryptographic Library Developers Think About Timing Attacks*](https://crocs.fi.muni.cz/public/papers/usablect_sp22) and
+[*“These results must be false”: A usability evaluation of constant-time analysis tools*](https://crocs.fi.muni.cz/public/papers/usablect_usenix24) with addition of more tools. 
 Each tool has its own page with more information and resources, sometimes **even a tutorial on using the tool**.
 
 There are currently {{ site.tools.size }} tools in the table.
@@ -51,6 +52,7 @@ can be useful for testing constant-timeness verification tools, or learning how 
 
 - [Blog: The state of tooling for verifying constant-timeness of cryptographic implementations](https://neuromancer.sk/article/26)
 - [“They’re not that hard to mitigate”: What Cryptographic Library Developers Think About Timing Attacks](https://crocs.fi.muni.cz/public/papers/usablect_sp22)
+- [“These results must be false”: A usability evaluation of constant-time analysis tools](https://crocs.fi.muni.cz/public/papers/usablect_usenix24)
 - [Blog: Testing constant-timeness using Valgrind: case of the NSS library](https://neuromancer.sk/article/29)
 - [Blog: Constant-time code verification with Memory Sanitizer](https://www.amongbytes.com/post/20210709-testing-constant-time/)
 
