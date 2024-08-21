@@ -13,14 +13,14 @@ There are currently {{ site.tools.size }} tools in the table.
 
 ## Tools
 
-<table>
+<table id="tool-table">
 <thead>
-	<th>Name</th>
-	<th>Year</th>
-	<th>Target</th>
-	<th>Technique</th>
-	<th>Guarantees</th>
-	<th>Tutorial</th>
+	<th onclick="sortTableString('tool-table', 0)" title="Click to sort" class="pointer">Name</th>
+	<th onclick="sortTableYear('tool-table', 1)"   title="Click to sort" class="pointer">Year</th>
+	<th onclick="sortTableString('tool-table', 2)" title="Click to sort" class="pointer">Target</th>
+	<th onclick="sortTableString('tool-table', 3)" title="Click to sort" class="pointer">Technique</th>
+	<th onclick="sortTableString('tool-table', 4)" title="Click to sort" class="pointer">Guarantees</th>
+	<th onclick="sortTableString('tool-table', 5)" title="Click to sort" class="pointer">Tutorial</th>
 </thead>
 {% assign tools = site.tools | sort_natural: "title" %}
 {% for tool in tools %}
