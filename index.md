@@ -56,5 +56,10 @@ can be useful for testing constant-timeness verification tools, or learning how 
 - [Blog: Testing constant-timeness using Valgrind: case of the NSS library](https://neuromancer.sk/article/29)
 - [Blog: Constant-time code verification with Memory Sanitizer](https://www.amongbytes.com/post/20210709-testing-constant-time/)
 
+## Miscellaneous
+
+- [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://mici.hu/papers/winderix24ami.pdf)
+- [fence.t.s: Closing Timing Channels in High-Performance Out-of-Order Cores through ISA-Supported Temporal Partitioning](https://arxiv.org/pdf/2409.07576)
+ 
 <hr/>
 <img src="assets/img/oprah.jpg" alt="Oprah giving everyone a tool" style="display: block; margin-left: auto; margin-right: auto;"/>
