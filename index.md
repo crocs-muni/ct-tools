@@ -58,6 +58,7 @@ can be useful for testing constant-timeness verification tools, or learning how 
 
 ## Miscellaneous
 
+- [A Systematic Evaluation of Automated Tools for Side-Channel Vulnerabilities Detection in Cryptographic Libraries](https://arxiv.org/abs/2310.08153)
 - [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://mici.hu/papers/winderix24ami.pdf)
 - [fence.t.s: Closing Timing Channels in High-Performance Out-of-Order Cores through ISA-Supported Temporal Partitioning](https://arxiv.org/pdf/2409.07576)
  
