@@ -20,14 +20,28 @@
 		<tr><th scope="row">Tutorial</th><td><a href="{{ include.tutorials[0].url | relative_url }}"><b>yes</b></a></td></tr>
 		{% endif %}
 	</table>
+	{% if include.tutorials and include.tutorials.size > 0 %}
+		{% assign tutorials_button = true %}
+	{% else %}
+		{% assign tutorials_button = false %}
+	{% endif %}
+	{% capture script_name %}install_{{ include.tool.slug }}.sh{% endcapture %}
+	{% assign scripts = site.static_files | where_exp: "file", "file.name contains script_name" %}
+	{% if scripts and scripts.size > 0 %}
+		{% assign scripts_button = true %}
+	{% else %}
+		{% assign scripts_button = false %}
+	{% endif %}
 	<div id="tool-links">
+		{% if tutorials_button or scripts_button %}
 		<a href="{{ include.tool.url | relative_url }}"><button {% if include.which == "tool" %}class="inactive"{% endif %}>Tool page</button></a>
-		{% if include.tutorials and include.tutorials.size > 0 %}
+		{% endif %}
+
+		{% if tutorials_button %}
 		<a href="{{ include.tutorials[0].url | relative_url }}"><button {% if include.which == "tutorial" %}class="inactive"{% endif %}>Tutorial page</button></a>
 		{% endif %}
-		{% capture script_name %}install_{{ include.tool.slug }}.sh{% endcapture %}
-		{% assign scripts = site.static_files | where_exp: "file", "file.name contains script_name" %}
-		{% if scripts and scripts.size > 0 %}
+		
+		{% if scripts_button %}
 		<a href="{{ scripts[0].path | relative_url }}"><button>Install script</button></a>
 		{% endif %}
 	</div>
