@@ -36,6 +36,9 @@ There are currently {{ site.tools.size }} tools in the table.
 {% endfor %}
 </table>
 
+Note that the claims w.r.t. guarantees in this table are **best effort** and may be wrong.
+Many tools do not claim any guarantees about their analysis.
+
 ## Examples
 
 The following list constains short snippets of C code that exhibit constant-time (or not) behavior and
@@ -50,17 +53,30 @@ can be useful for testing constant-timeness verification tools, or learning how 
 
 ## Resources
 
-- [Blog: The state of tooling for verifying constant-timeness of cryptographic implementations](https://neuromancer.sk/article/26)
-- [“They’re not that hard to mitigate”: What Cryptographic Library Developers Think About Timing Attacks](https://crocs.fi.muni.cz/public/papers/usablect_sp22)
-- [“These results must be false”: A usability evaluation of constant-time analysis tools](https://crocs.fi.muni.cz/public/papers/usablect_usenix24)
-- [Blog: Testing constant-timeness using Valgrind: case of the NSS library](https://neuromancer.sk/article/29)
-- [Blog: Constant-time code verification with Memory Sanitizer](https://www.amongbytes.com/post/20210709-testing-constant-time/)
+The resources below can be helpful if you are seeking more information on these tools or constant-time code in general.
+
+- [Blog: The state of tooling for verifying constant-timeness of cryptographic implementations](https://neuromancer.sk/article/26) <br/>
+  Constitutes a precursor to this site, some reasoning for the classification used on this site is given there.
+- [“They’re not that hard to mitigate”: What Cryptographic Library Developers Think About Timing Attacks](https://crocs.fi.muni.cz/public/papers/usablect_sp22) <br/>
+  Presents a survey done among cryptographic library developers into their view on timing attacks,
+  their mitigation and constant-timeness analysis tools.
+- [“These results must be false”: A usability evaluation of constant-time analysis tools](https://crocs.fi.muni.cz/public/papers/usablect_usenix24) <br/>
+  Presents a user study evaluating the usability of some constant-timeness analysis tools: Binsec, ct-verif, dudect, valgrind, MemSan, haybale-pitchfork.
+- [A Systematic Evaluation of Automated Tools for Side-Channel Vulnerabilities Detection in Cryptographic Libraries](https://arxiv.org/pdf/2310.08153) <br/>
+  Presents a thorough and systematic classification of 34 constant-timeness analysis tools.
+- [Blog: Testing constant-timeness using Valgrind: case of the NSS library](https://neuromancer.sk/article/29) <br/>
+  Case study on using Valgrind for constant-timeness analysis of the NSS library.
+- [Blog: Constant-time code verification with Memory Sanitizer](https://www.amongbytes.com/posts/20210709-testing-constant-time/20210709-testing-constant-time.html) <br/>
+  Case study on using MemSan for constant-timeness analysis.
 
 ## Miscellaneous
 
-- [A Systematic Evaluation of Automated Tools for Side-Channel Vulnerabilities Detection in Cryptographic Libraries](https://arxiv.org/abs/2310.08153)
+The articles below mostly discuss the role of compilers in introducing (and potentially mitigating) timing leaks.
+
+- [What you get is what you C: Controlling side effects in mainstream C compilers](https://www.cl.cam.ac.uk/archive/rja14/Papers/whatyouc.pdf)
+- [Breaking Bad: How Compilers Break Constant-Time Implementations](https://arxiv.org/pdf/2410.13489)
+- [Clang vs. Clang: You're making Clang angry. You wouldn't like Clang when it's angry.](https://blog.cr.yp.to/20240803-clang.html)
 - [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://mici.hu/papers/winderix24ami.pdf)
-- [fence.t.s: Closing Timing Channels in High-Performance Out-of-Order Cores through ISA-Supported Temporal Partitioning](https://arxiv.org/pdf/2409.07576)
  
 <hr/>
 <img src="assets/img/oprah.jpg" alt="Oprah giving everyone a tool" style="display: block; margin-left: auto; margin-right: auto;"/>
